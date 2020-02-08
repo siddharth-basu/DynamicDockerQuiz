@@ -38,7 +38,7 @@ $(document).ready(function() {
     $('#ajaxloading').show();
     $('#reload').show();
   });
-  $('#title').text("Dynamic Quiz");
+  $('#title').text("Tech Stack Quiz");
   $('#title').hide().fadeIn("slow");
   $('#nameForm').hide().fadeIn("slow");
   $('#description').hide();

@@ -3,10 +3,15 @@ Take Quiz, modify quiz, edit quiz, delete quiz
 use templating for dropdown quiz selection?
 */
 var express = require('express');
+const mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var path = require('path');
 var path = require('ejs');
+
+// DB Config
+const db = require('./config/keys').mongoURI;
+
 
 var app = express();
 app.use(bodyParser.json());
@@ -144,9 +149,21 @@ app.get('/titlesandids', function (req, res) {
   res.send(JSON.stringify(titles));
 });
 
+// Connect to MongoDB
+mongoose
+  .connect(
+    db,
+    { useNewUrlParser: true }
+  )
+  .then(() => console.log('MongoDB Connected'))
+  .catch(err => console.log(err));
 
+  const PORT = process.env.PORT || 4000;
+  app.listen(PORT, console.log(`Server started on port ${PORT}`));
+  
+/*
 var server = app.listen(process.env.PORT || 4000, function() {
   var host = server.address().address;
   var port = server.address().port;
   console.log('Example app listening at http://%s:%s', host, port);
-});
+}); */

@@ -1,24 +1,22 @@
 [
     {
         "id": 1,
-        "title": "The Inside Story",
-        "description": "Matt Armstrong Quiz",
+        "title": "Introduction to Docker",
+        "description": "Instructure: Siddharth Basu",
         "meta_tags": [
-            "Matt",
-            "Armstrong"
+            "Docker",
+            "Containers"
         ],
         "difficulty": "17",
         "questions": [
             {
-                "text": "What town is Matt Armstrong from?",
+                "text": "Docker containers are based on open standard________________________.",
                 "answers": [
-                    "Amherst",
-                    "Boston",
-                    "New Bedford",
-                    "Wayland",
-                    "Salem"
+                    "Allowing containers to run on all major Linux distributions only",
+                    "Allowing containers to run on all Microsoft operating systems only",
+                    "Allowing containers to run on all major Linux distributions and Microsoft operating systems"
                 ],
-                "correct_answer": 3,
+                "correct_answer": 2,
                 "global_correct": 1,
                 "global_total": 15,
                 "meta_tags": [
@@ -26,14 +24,13 @@
                 ]
             },
             {
-                "text": "What sport does Matt Armstrong play?",
+                "text": "Virtual Machines, Each virtual machine includes the application, the necessary binaries and libraries, and an entire guest operating system - All of which may be tens of GBs in size.",
                 "answers": [
-                    "Basketball",
-                    "Soccer",
-                    "Baseball",
-                    "Swimming"
+                    "True",
+                    "False"
+                    
                 ],
-                "correct_answer": 3,
+                "correct_answer": 0,
                 "global_correct": 1,
                 "global_total": 15,
                 "meta_tags": [
@@ -41,139 +38,117 @@
                 ]
             },
             {
-                "text": "What is Matt Armstrong's address?",
+                "text": "Containers running on a single machine all share the same operating system kernel, so they start instantly and make more efficient use of RAM.",
                 "answers": [
-                    "101 West 87th Street, Apt. 1007, New York, NY 10024",
-                    "345 East 68th Street, Apt. 5ABC, New York, NY 10065",
-                    "279 Central Park West, Apt. 11C, New York, NY 10024",
-                    "65 Central Park West, Apt. 12A, New York, NY 10023"
-                ],
-                "correct_answer": 1,
-                "global_correct": 4,
-                "global_total": 15,
-                "meta_tags": [
-                    "Street Address"
-                ]
-            },
-            {
-                "text": "What summer camp did Matt Armstrong go to?",
-                "answers": [
-                    "Penn State Penitentiary",
-                    "Camp Wapanacki",
-                    "Camp Wanapatei",
-                    "Camp Winnebago",
-                    "Camp Kingsley Pines"
-                ],
-                "correct_answer": 4,
-                "global_correct": 1,
-                "global_total": 15,
-                "meta_tags": [
-                    "Camp"
-                ]
-            },
-            {
-                "text": "What is on the second shelf of Matt Armstrong's room?",
-                "answers": [
-                    "Monopoly",
-                    "A Red Sox Jersey",
-                    "An Xbox 360",
-                    "Statues",
-                    "Books"
-                ],
-                "correct_answer": 4,
-                "global_correct": 1,
-                "global_total": 15,
-                "meta_tags": [
-                    "Shelf"
-                ]
-            },
-            {
-                "text": "What is the name of Matt Armstrong's sister?",
-                "answers": [
-                    "Grace",
-                    "Kate",
-                    "Amanda",
-                    "Chloe",
-                    "Alexis"
-                ],
-                "correct_answer": 2,
-                "global_correct": 5,
-                "global_total": 15,
-                "meta_tags": [
-                    "Name Tag"
-                ]
-            },
-            {
-                "text": "What is Matt Armstrong's tennis ranking?",
-                "answers": [
-                    "0",
-                    "21",
-                    "1564",
-                    "67",
-                    "405",
-                    "Unranked"
-                ],
-                "correct_answer": 2,
-                "global_correct": 9,
-                "global_total": 15,
-                "meta_tags": [
-                    "Tennis Ball"
-                ]
-            },
-            {
-                "text": "Where does Matt Armstrong's dad work?",
-                "answers": [
-                    "Memorial Sloan Kettering",
-                    "Citi Bank",
-                    "Mumford and Sons",
-                    "Aetna Insurance",
-                    "Mcdonalds",
-                    "Best Buy"
+                    "True",
+                    "False"
+                    
                 ],
                 "correct_answer": 0,
                 "global_correct": 1,
                 "global_total": 15,
                 "meta_tags": [
-                    "Science Research"
+                    "Sports"
                 ]
             },
             {
-                "text": "What is Matt Armstrong's favourite League of Legends Champion?",
+                "text": "Containers;   Containers include the application and all of its dependencies, but share the kernel with other containers. They run as an isolated process in userspace on the host operating system. They’re also not tied to any specific infrastructure – Docker containers run on any computer, on any infrastructure, and in any cloud.",
                 "answers": [
-                    "Alistar",
-                    "Brand",
-                    "Xerath",
-                    "Malphite",
-                    "Leblanc"
+                    "True",
+                    "False"
+                    
                 ],
-                "correct_answer": 3,
-                "global_correct": 2,
+                "correct_answer": 0,
+                "global_correct": 1,
                 "global_total": 15,
                 "meta_tags": [
-                    "League of Legends"
+                    "Sports"
                 ]
             },
             {
-                "text": "What is hanging on the wall in Matt's room?",
+                "text": "________is a cloud-hosted service from Docker that provides registry capabilities for public and private content.",
                 "answers": [
-                    "A Nickleback Poster",
-                    "A Tapestry",
-                    "A Samurai Sword",
-                    "A Cookie",
-                    "A Stuffed Sheep"
+                    "Docker Swarm",
+                    "Docker Hub",
+                    "Docker Cloud",
+                    "Docker Compose"
+                    
                 ],
-                "correct_answer": 2,
-                "global_correct": 2,
+                "correct_answer": 1,
+                "global_correct": 1,
                 "global_total": 15,
                 "meta_tags": [
-                    "Samurai Sword"
+                    "Sports"
+                ]
+            },
+            {
+                "text": "________is a tool for defining and running multi-container Docker applications.",
+                "answers": [
+                    "Docker Swarm",
+                    "Docker Hub",
+                    "Docker Cloud",
+                    "Docker Compose"
+                ],
+                "correct_answer": 0,
+                "global_correct": 1,
+                "global_total": 15,
+                "meta_tags": [
+                    "Sports"
+                ]
+            },
+            {
+                "text": "________is native clustering for Docker. It turns a pool of Docker hosts into a single, virtual Docker host.",
+                "answers": [
+                    "True",
+                    "False"
+                    
+                ],
+                "correct_answer": 0,
+                "global_correct": 1,
+                "global_total": 15,
+                "meta_tags": [
+                    "Sports"
+                ]
+            },
+            
+            {
+                "text": "Following Docker command: docker build -t my_user/repo_name:1.0 is used to:",
+                "answers": [
+                    "Activate default VM machine",
+                    "Access a running container",
+                    "Build an image",
+                    "Commit changes done in a Docker image"
+                    
+                ],
+                "correct_answer": 0,
+                "global_correct": 1,
+                "global_total": 15,
+                "meta_tags": [
+                    "Sports"
+                ]
+            },
+            {
+                "text": "Following Docker command: docker push user_name/repository_name  is used to:",
+                "answers": [
+                    "Activate default VM machine",
+                    "Push changes done in an docker image into Docker Hub",
+                    "Build an image",
+                    "Commit changes done in a Docker image"
+                    
+                ],
+                "correct_answer": 0,
+                "global_correct": 1,
+                "global_total": 15,
+                "meta_tags": [
+                    "Sports"
                 ]
             }
+
         ]
     },
     {
         "id": 2,
-        "title": "Music Quiz",
+        "title": "Introduction to Kubernetes",
         "description": "Quiz",
         "meta_tags": [
             "Music"
@@ -371,7 +346,7 @@
     },
     {
         "id": 3,
-        "title": "My Quiz",
+        "title": "CI/CD Docker Dev Ops Adavanced",
         "description": "........",
         "difficulty": "-19",
         "meta_tags": [
@@ -546,7 +521,7 @@
     },
     {
         "id": 4,
-        "title": "Software Engineering Class Fun Food Facts!",
+        "title": "Salesforce Cloud Platform ",
         "description": "A fun quiz testing your knowledge on food facts about your classmates!",
         "meta_tags": [
             "yummy",
@@ -887,7 +862,7 @@
     },
     {
         "id": 6,
-        "title": "Chemistry Quiz",
+        "title": "GIT Advanced Enterprise use",
         "description": "Test your chemistry knowledge!",
         "meta_tags": [
             "science",
@@ -1223,7 +1198,7 @@
     },
     {
         "id": 7,
-        "title": "Space Quiz",
+        "title": "Big O and Algorithms",
         "description": "Space Quiz",
         "meta_tags": [
             "Space",
