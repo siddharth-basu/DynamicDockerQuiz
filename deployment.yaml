@@ -1,0 +1,16 @@
+apiVersion: sbasu110/dynamicquiz
+kind: 
+metadata:
+  name: sbasu110/dynamicquiz
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels: # labels to select/identify the deployment
+        app: dynam
+    spec:     # pod spec                  
+      containers: 
+      - name: dynamic-quiz 
+        image: sbasu110/dynamicquiz:v1 # image we pushed
+        ports:
+        - containerPort: 4000
